@@ -8,6 +8,7 @@ dependencies = [
     "fastapi>=0.136.1",
     "mlflow>=3.11.1",
     "pandas>=2.3.3",
+    "python-dotenv>=1.2.2",
     "scikit-learn>=1.8.0",
     "uvicorn[standard]>=0.46.0",
 ]
