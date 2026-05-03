@@ -12,6 +12,8 @@ WORKDIR /app
 
 COPY  --from=builder /install /usr/local
 COPY app/ ./app/
+COPY training/ ./training/
+COPY mlruns/ ./mlruns/
 
 ENV PYTHONUNBUFFERED=1
 EXPOSE 8000

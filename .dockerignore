@@ -1,4 +1,4 @@
-mlruns/
+#mlruns/
 .venv
 .python-version
 uv.lock
